@@ -1,0 +1,61 @@
+.task {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    margin-right: 428px;
+    margin-bottom: 1rem;
+    color:lightpink;
+    margin-left: 445px;
+    background-color:midnightblue
+}
+
+.taskContent{
+    color:lightgreen;
+    font-size: 15px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    margin-bottom: 5px;
+    background-color:midnightblue
+}
+
+.taskBtn{
+    color:midnightblue;
+    margin-left: 142px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor:pointer;
+}
+
+.editBtn{
+    color :pink;
+    border: none;
+    background-color:midnightblue;
+    cursor:pointer;
+}
+
+.imprtantBtn{
+    color:blueviolet;
+    border: none;
+    background-color:midnightblue;
+    cursor:pointer;
+}
+
+.doneBtn{
+    color: greenyellow;
+    border: none;
+    background-color:midnightblue;
+    cursor:pointer;
+}
+
+.deleteBtn{
+    color:red;
+    border: none;
+    background-color:midnightblue;
+    cursor:pointer;
+}

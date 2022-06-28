@@ -1,0 +1,37 @@
+.search{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+}
+
+.search input{
+    width: 66%;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-left: 445px;
+    background-color:grey;
+
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:midnightblue;
+    opacity: 1; /* Firefox */
+    font-size: 17px;
+}
+
+.buttons{
+    margin-left: 250px;
+}
+
+
+.searchBtn{
+    background-color:deeppink;
+    border-radius: 8px;
+    color: white;
+    padding: 8px 5px;
+    text-align: center;
+    font-size: 16px;
+    cursor:pointer;
+    margin-left: 5px;
+}
